@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<database>
+    <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+    <property name="url"
+              value="jdbc:mysql://127.0.0.1:3306/wang_mybatis?useSSL=true&amp;useUnicode=true&amp;characterEncoding=UTF-8"></property>
+    <property name="userName" value="root"></property>
+    <property name="password" value="123456"></property>
+</database>

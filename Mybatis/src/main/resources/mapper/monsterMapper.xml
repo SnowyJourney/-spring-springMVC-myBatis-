@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapper namespace ="com.wang.mapper.MonsterMapper">
+
+    <select id="queryOne" parameterType="java.lang.Integer" resultType="com.wang.entity.Monster">
+        select * from monster where id = ?
+    </select>
+
+    <insert id="insertOne" parameterType="com.wang.entity.Monster">
+        INSERT INTO monster (age,birthday,email,gender,NAME,salary)
+        VALUES(13,'2000-2-2','wang@com',0,'钢铁侠',120.0)
+    </insert>
+
+
+</mapper>

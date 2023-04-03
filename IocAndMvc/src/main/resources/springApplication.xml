@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <component-scan base-package="com.wang.service"></component-scan>
+
+    <component-scan base-package="com.wang.controller"></component-scan>
+
+    <component-scan base-package="com.wang.dao"></component-scan>
+
+    <component-scan base-package="com.wang.processor"></component-scan>
+
+</beans>
